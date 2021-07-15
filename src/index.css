@@ -5,9 +5,15 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background: linear-gradient(rgba(255, 255, 255, .5), rgba(255, 255, 255, .5))
+            ,url('https://wallup.net/wp-content/uploads/2018/09/26/316672-snow-minimalistic-trees-simple-background-white-background.jpg');
+  background-size: cover;
+  background-position: center;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+
