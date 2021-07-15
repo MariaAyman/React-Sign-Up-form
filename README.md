@@ -1,3 +1,31 @@
+# React Sign Up Form
+
+My first React App designing a Sign up form with validation
+
+The form consists of 
+
+- First and Last name
+- Email 
+- Password
+- Checkbox for Terms and Condition
+- Sign Up button
+
+## Form Validation and Handling Submit
+
+On Signing up, handleSubmit checks all input fields for errors based on certain conditions
+
+Errors that are avoided in this form are:
+```
+- Blank/Null values
+- Names must be less than 15 characters, starting with a capital letter
+- Email format is correct
+- Password must be 8-20 characters long, contain letters and numbers, and must not contain spaces, special characters, or emoji
+- Checkbox is checked
+```
+If one of these errors are found, a feedback message appears where the error occured.
+
+If not, an alert appears confirming signing up.
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
