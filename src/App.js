@@ -48,7 +48,7 @@ function App() {
 
     //email errors
     if(!email || email === '') newErrors.email = 'Must Enter an Email to Sign Up!';
-    else if(!email.match(/^[\w-_\.]+@([\w-]+\.)+[\w-]{2,4}$/g)) newErrors.email = 'Please enter a valid Email address!';
+    else if(!email.match(/^[\w-_.]+@([\w-]+.)+[\w-]{2,4}$/g)) newErrors.email = 'Please enter a valid Email address!';
 
     //password errors
     if(!password || password === '') newErrors.password = 'Must Enter a Password to Sign Up!';
